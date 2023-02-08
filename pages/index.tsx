@@ -26,7 +26,7 @@ export default function Home() {
       };
     }
 
-    setUyam("Mag alat kang hamag ka!");
+    setUyam("Mag alat kang hamag ka...");
 
     const response = await fetch("https://uyam-server.vercel.app/api/uyam", {
       method: 'POST',
