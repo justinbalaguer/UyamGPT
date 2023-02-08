@@ -1,3 +1,23 @@
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.button {
+  padding: 0.5em;
+}
+
+.span {
+  color: #757575;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +25,10 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: url('../public/images/troll.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .description {
